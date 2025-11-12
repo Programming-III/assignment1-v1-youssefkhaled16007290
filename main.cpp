@@ -27,7 +27,7 @@ using namespace std;
 #ifndef Enclosure_h
 #define Enclosure_h
 public :
-Animal_h:Animal(string n,int a,bool h){
+Animal_h::Animal(string n,int a,bool h){
    name=n;
    age=a;
    isHungry=h;

@@ -57,7 +57,7 @@ Animal_h:Animal(string n,int a,bool h){
  }
 void Enclosure::addAnimal(Animal* a){
     if(capacity<currentCount)
-    x.push(a);
+    animal[currentcount++]=(a);
     currentCount++;
     else 
     cout<<"there is no space for another animal"<<endl;

@@ -4,7 +4,14 @@
 #include <string>
 using namespace std;
 
-//define visitor class here
+//define visitor class hereclass Visitor{
+private:
+string Visitorname;
+int ticketsBought;
+public:
+Visitor(string vn,int t);
+void displayinfo();
+}
 
 
 
